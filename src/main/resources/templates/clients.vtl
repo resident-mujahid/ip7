@@ -1,0 +1,12 @@
+<h3>Client List</h3>
+
+#if ($clients)
+<p>Your client is:</p>
+  <ul>
+    #foreach ($client in $clients)
+      <li>$client.getName()</li>
+    #end
+  </ul>      
+#else
+  <p>There are no clients on your list!</p>
+#end    

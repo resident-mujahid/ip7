@@ -1,0 +1,7 @@
+<h3>All stylists</h3>
+<ul>
+  #foreach ($stylist in $stylists)
+    <li><a href="/stylists/$stylist.getId()">$stylist.getCategory()</a></li>
+  #end
+</ul>
+<a href="/stylists/new">Add New Stylist</a>
