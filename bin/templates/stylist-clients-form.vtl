@@ -1,0 +1,12 @@
+<h3>Add a client to $stylist.getCategory()</h3>
+
+<form action="/clients" method="post">
+  <input id="categoryId" name="categoryId" type="hidden" value="$stylist.getId()">
+
+  <div class="form-group">
+    <label for="name">Client Name:</label>
+    <input id="name" name="name" type="text" class="form-control">
+  </div>
+
+  <button type="submit" class="btn btn-success">Add Client</button>
+</form>
